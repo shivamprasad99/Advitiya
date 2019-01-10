@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iitropar.advitiya.MainActivity">
+
+    <com.synnapps.carouselview.CarouselView
+       android:id="@+id/carouselView"
+       android:layout_width="match_parent"
+       app:layout_heightPercent="40%"
+       app:disableAutoPlayOnUserInteraction="false"
+       app:fillColor="#FFFFFFFF"
+       app:pageColor="#00000000"
+       app:slideInterval="5000"
+       app:strokeColor="#FF777777"
+       app:pageTransformInterval="1000"
+       app:animateOnBoundary="false"
+       app:strokeWidth="1dp"
+       app:indicatorMarginVertical="10dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:fillViewport="true"
+        >
+
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/athletics"
+
+                android:layout_height="120dp"
+                android:layout_marginTop="2dp"
+                app:layout_widthPercent="30%"
+
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                />
+            <!-- android:src="@drawable/athletics" /-->
+
+            <ImageView
+                android:id="@+id/badmintionBoys"
+                android:layout_height="120dp"
+                app:layout_widthPercent="30%"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/athletics"
+                android:layout_toRightOf="@+id/athletics"
+                 />
+            <!--android:src="@drawable/badminton" -->
+
+            <ImageView
+                android:id="@+id/badmintionGirls"
+                app:layout_widthPercent="30%"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/badmintionBoys"
+                android:layout_toRightOf="@+id/badmintionBoys"
+                 />
+            <!-- android:src="@drawable/badmintongirls" -->
+
+
+            <ImageView
+                android:id="@+id/basketballBoys"
+                app:layout_widthPercent="30%"
+                android:layout_below="@+id/athletics"
+                android:layout_height="120dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                 />
+            <!-- android:src="@drawable/basketball" -->
+
+            <ImageView
+                android:id="@+id/basketballGirls"
+                android:layout_height="120dp"
+                app:layout_widthPercent="30%"
+                android:layout_below="@+id/badmintionGirls"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/basketballBoys"
+                android:layout_toRightOf="@+id/basketballBoys"
+                />
+            <!--  android:src="@drawable/basketballgirls"-->
+
+            <ImageView
+                android:id="@+id/chess"
+                app:layout_widthPercent="30%"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/badmintionGirls"
+                android:layout_toEndOf="@+id/basketballGirls"
+                android:layout_toRightOf="@+id/basketballGirls"
+                 />
+            <!-- android:src="@drawable/chess" -->
+
+            <ImageView
+                android:id="@+id/cricket"
+                android:layout_below="@+id/basketballBoys"
+                android:layout_height="120dp"
+                android:layout_marginTop="2dp"
+                app:layout_widthPercent="30%"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                />
+            <!-- android:src="@drawable/cricket" -->
+
+            <ImageView
+                android:id="@+id/football"
+                android:layout_height="120dp"
+                app:layout_widthPercent="30%"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/basketballBoys"
+                android:layout_toEndOf="@+id/cricket"
+                android:layout_toRightOf="@+id/cricket"
+                 />
+            <!-- android:src="@drawable/football" -->
+
+            <ImageView
+                android:id="@+id/lawnBoys"
+                app:layout_widthPercent="30%"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/basketballBoys"
+                android:layout_toEndOf="@+id/football"
+                android:layout_toRightOf="@+id/football"
+                 />
+            <!-- android:src="@drawable/lawn_tennis" -->
+
+
+            <ImageView
+                android:id="@+id/lawnGirls"
+                app:layout_widthPercent="30%"
+                android:layout_below="@+id/cricket"
+                android:layout_height="120dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                 />
+            <!-- android:src="@drawable/lawn_tennisgirls" -->
+
+            <ImageView
+                android:id="@+id/tableBoys"
+                android:layout_height="120dp"
+                app:layout_widthPercent="30%"
+                android:layout_below="@+id/cricket"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+
+                android:layout_toEndOf="@+id/lawnGirls"
+                android:layout_toRightOf="@+id/lawnGirls"
+                 />
+            <!-- android:src="@drawable/table_tennis" -->
+
+            <ImageView
+                android:id="@+id/tableGirls"
+                app:layout_widthPercent="30%"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/cricket"
+                android:layout_toEndOf="@+id/tableBoys"
+                android:layout_toRightOf="@+id/tableBoys"
+                 />
+            <!-- android:src="@drawable/table_girls" -->
+
+            <ImageView
+                android:id="@+id/volleyBoys"
+                android:layout_height="120dp"
+                app:layout_widthPercent="30%"
+                android:layout_below="@+id/lawnGirls"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                 />
+            <!-- android:src="@drawable/volleyboys" -->
+
+            <ImageView
+                android:id="@+id/volleyGirls"
+                app:layout_widthPercent="30%"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/lawnGirls"
+                android:layout_toEndOf="@+id/volleyBoys"
+                android:layout_toRightOf="@+id/volleyBoys"
+                 />
+            <!-- android:src="@drawable/volleyballgirls" -->
+
+
+
+
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+</android.support.percent.PercentRelativeLayout>

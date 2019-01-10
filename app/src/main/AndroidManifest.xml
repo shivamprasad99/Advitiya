@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="iitropar.advitiya">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".ScheduleDay"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="false" />
+<!--
+        <service
+            android:name=".NotificationService"
+            android:exported="false" />
+        <service android:name=".NotificationWithFirebase">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>-->
+        <service android:name=".FirebaseMessage">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+             The API key for Google Maps-based APIs is definedResultEventWinnerAdapteras a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You nResultEventWinnerAdaptered a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".AboutAdivitya"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ContactUS"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Developers"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".Sponsors"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Results"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".Competition"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+
+   <!--     <receiver
+            android:name=".RealTimeNotificationReceiver"
+            android:enabled="true"
+            android:exported="true" />
+-->
+        <activity
+            android:name=".Talks"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            >
+           </activity>
+
+        <activity android:name=".Workshop"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".SpaceActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+
+        <activity android:name=".Accomodation"
+            android:theme="@style/MyActionBar"
+            android:parentActivityName=".SpaceActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

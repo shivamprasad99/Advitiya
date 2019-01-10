@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "591488987908",
+    "firebase_url": "https://advitiya-18.firebaseio.com",
+    "project_id": "advitiya-18",
+    "storage_bucket": "advitiya-18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591488987908:android:f399d2ad78b04501",
+        "android_client_info": {
+          "package_name": "iitropar.advitiya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591488987908-sb5aok0804mcl4s8sad9or9r06urbncm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iitropar.advitiya",
+            "certificate_hash": "bc99c6510e2881cbb64131cf2331ef163192c749"
+          }
+        },
+        {
+          "client_id": "591488987908-t4m9lo0cj02f81jbh0dderam1l66i5il.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Pgp8IPM7ZsQ0G4cleztuZChPD07bxjY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591488987908-t4m9lo0cj02f81jbh0dderam1l66i5il.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

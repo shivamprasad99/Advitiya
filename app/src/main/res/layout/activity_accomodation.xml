@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iitropar.advitiya.Accomodation"
+    >
+    <ListView
+        android:id="@+id/accomodation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/offwhite"
+        android:background="@color/transparent"
+
+        android:layout_above="@+id/register"
+        android:paddingBottom="5dp"
+        android:textSize="20dp"
+        tools:ignore="InvalidId" />
+
+    <!--ocumentView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_marginBottom="20dp"
+        app:documentView_antialias="true"
+        app:documentView_textAlignment="justified"
+        app:documentView_text="@string/accomodation"
+        app:documentView_textSize="16sp"
+        android:paddingBottom="10dp"
+        app:documentView_insetPaddingBottom="15dp"/-->
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        android:background="@color/transparent"/>
+
+</RelativeLayout>

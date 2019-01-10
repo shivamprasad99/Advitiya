@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Advitiya</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="rules">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="upcomingBlank">No events in next 30 minutes. Stay Tuned!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_anouncement">Anouncement</string>
+
+    <string name="register_one_ohm">http://advitiya.in/event.php?event=One%20Ohm</string>
+    <string name="register_design_simulate">http://advitiya.in/event.php?event=Design%20and%20Simulate</string>
+    <string name="register_young_scientist">http://advitiya.in/event.php?event=Advitiya%20Young%20Scientist</string>
+    <string name="register_flight_show">http://advitiya.in/event.php?event=Flight%20show</string>
+    <string name="register_water_rocket">http://advitiya.in/event.php?event=Water%20Rocket</string>
+
+    <string name="register_fury_road">http://advitiya.in/event.php?event=Fury%20Road</string>
+    <string name="register_robowars">http://advitiya.in/event.php?event=Robowars</string>
+    <string name="register_robosoccer">http://advitiya.in/event.php?event=Robosoccer</string>
+    <string name="register_line_imitator">http://advitiya.in/event.php?event=Line%20Imitator</string>
+
+    <string name="register_hackamania">http://advitiya.in/event.php?event=Hackamania</string>
+    <string name="register_pnp">http://advitiya.in/event.php?event=PNP</string>
+    <string name="register_makethon">http://advitiya.in/event.php?event=Make-Thon</string>
+
+    <string name="register_ebuzz">http://advitiya.in/event.php?event=E%20Buzz</string>
+    <string name="register_mun">http://advitiya.in/mun/</string>
+    <string name="register_stock_stalkers">http://advitiya.in/event.php?event=Stock%20Stalkers</string>
+    <string name="register_awaaz">http://advitiya.in/event.php?event=Awaaz</string>
+
+
+    <string name="register_poker">http://advitiya.in/event.php?event=Poker</string>
+    <string name="register_brainvista">http://advitiya.in/event.php?event=Brainvista</string>
+    <string name="register_ockham_razor">http://advitiya.in/event.php?event=Ockham%27s%20Razors</string>
+    <string name="register_Qfiesta">http://advitiya.in/event.php?event=Q-Fiesta</string>
+    <string name="register_battle_ground">http://advitiya.in/event.php?event=Battle%20Ground-X</string>
+    <string name="title_activity_temp">TempActivity</string>
+
+    <string name="about_text">
+         Situated in the heart of one of the ancient cities of India, Ropar, Indian institute of technology Ropar is among the most highly reputed technological institutions in the country. Having bagged 9th rank in the MHRD published ranking in the year 2016, we have been a pioneer among the younger IITs established in the 21st century. The immense dedication and hard work of our stakeholders has enabled us to achieve astounding success in a very short span of time.\n\n
+        The institute fosters a kind of ambition and desire that does not allow us to stop and look back upon our past accomplishments, rather it pushes us forward to achieve bigger and greater things, continuing with its tradition of igniting young minds and unearthing their hidden potential, IIT Ropar, after the grand success of Advitiya, the maiden edition we bring you the second iteration of the technical festival, Advitiya 2018.\n\n
+        A three day, three night amalgam of science, technology, innovation and research, Advitiya is going to be a technological extravaganza of talks, workshops, competitions and much more.\n\n
+    </string>
+
+
+
+    <string name="accomodation"><![CDATA[
+
+    <ul>
+    <li>Production of College ID card is mandatory at the Registration Desk.</li>
+    <li>After successful registration, each registered student would be given an Accommodation Pass. It is mandatory for all registered students to carry this pass throughout their stay during the fest.</li>
+    <li>Accommodation would be strictly on first-come-first-serve and shared basis.</li>
+    <li>Mattresses, blankets and bed sheets will be provided during your accommodation.</li>
+    <li>Advitiya, IIT Ropar does not bear any responsibility for any material loss during your stay at the campus.</li>
+    <li>Accommodation fee is exclusive of any food charges. You can avail food facility at the food stalls on payment basis.</li>
+    <li>If any student is found responsible for causing damage to the property of IIT Ropar, the concerned student will be liable to the full cost of replacement/repair.</li>
+    <li>-Charges(INR) : \n1 Day (300) & 2 Days (400) & 3 Days (500).\n
+    -Charges for online payment(INR) : 1 Day (250) & 2 Days (350) & 3 Days (400).\n
+    -Breakfast is included in accommodation.</li></ul>
+
+
+
+
+
+
+
+
+
+    ]]></string>
+
+    <string name="one_ohm">We are born to play. Some play soccer, others play cricket but we play with circuits. It’s an arena of innovation. You push the limits, we measure it. Designing a circuit is the most challenging task where every ohm matters.</string>
+    <string name="design_simulate">Many a times you may have the design of the product but may be in bewilderment that it will work in real life situations or not. So you can use this opportunity to do so. Advitiya brings you Design and Simulate Competition where you will be designing a product/model and simulate it to check its reliability and robustness. You will be doing the designing and simulation in a software called "Abaqus".</string>
+    <string name="young_scientist">We bring you face to face with professors and researchers of IIT Ropar, who boast of outstanding scientific prowess and countless years of experience. Advitiya 2018 invites young scientists and engineers from schools and colleges all over India to demonstrate the best science / technical project they have designed, here at IIT Ropar.</string>
+    <string name="flight_show">This ADVITYA grab the chance to design your own quad-copter and escalate your skills and knowledge to new heights in the sky along with your copter. So Grab your screwdrivers and tighten the nuts! This season the battle goes off ground, compete in the sky and witness the amazing flight shows by student designed quad copters.</string>
+    <string name="water_rocket">Water Rocket is a mechanical event that involves the fabrication of a rocket whose fuel/thrust for flight is obtained by the use of water that is expelled at a large air pressure. It is an example of Newtons third law of motion. The pre requisites for such an event would be a basic knowledge of fabrication, materials and physical calculations involving thrust, air pressure, etc. The event tests a couple of asp.</string>
+
+    <string name="fury_road">Have you ever wanted to rule the roads ? Have you ever dreamt of becoming the Fury King.
+If yes then it\'s the time to turn that dream into reality and beat your opponents on the Fury Road. Advitiya is now giving you the opportunity to design your robocar and show its worth on the adventurous tracks full of excitement as well as challenges . So, get your hands on your robots and let the game begin.</string>
+    <string name="robowars">Humans have the tendency to compete , and competitions leads to wars !! Seeking a opportunity to show the fire burning inside inside you ? Advitya brings you ROBOWARS , Design a robo , Install your weapons and Jump into the arena.</string>
+    <string name="robosoccer">All you football fans hold thy breath, as we present to you soccer with an entirely new dimension. So, if you are up for the challenge get your manual soccer playing robots ready in order to compete on the big stage, Build a manually controlled robot capable of competing in a one on one game of soccer.</string>
+    <string name="line_imitator">Have you ever seen a human following a right path? NO! but in fact a robot can do it perfectly, if designed in a specific and proper manner.Now you have a chance to design your own LINE IMITATOR and come and feel the perfection.
+</string>
+
+    <string name="hackamania">Hackamania aims at inculcating the exponent of creativity and exuberance within the minds of the young. In this era of technical advancement and spirit of leaping forward in every way, we invite you to melt your brains and build an application software in a 15 hr hackathon.</string>
+    <string name="makethon">A large number of things can be made from microcontrollers just by utilizing the vast potential of the sensors available in the market. A simple atmega chip packs the potential to make millions of things.But time doesn\'t permits this. So, you need to design the solution packed with innovation,knowledge and energy to work on a problem statement given in-situ within 24 hours. So get packed up challenge isn't that easy.</string>
+    <string name="pnp">Ever explored competitive programming world? P=NP is an arena of competitive programming for both beginners and masters. Engage in P=NP to claim the glory of the best. Be the part of a small workshop on competitive programming along with competitive programming competition.</string>
+
+    <string name="ebuzz">Do you feel that you analyse things better, have strong opinions and devastating presentation skills. Well, wake up your inner genius and show that your team can crack the most intriguing cases and present the best perspectives on a spectacular platform like Advitiya, IIT Ropar and win the fabulous prizes.</string>
+    <string name="mun"></string>
+    <string name="stock_stalkers">Indian Institute of technology, Ropar presents Stock Stalkers an online virtual stock trading competition to test your trading skills and ability to deduce the effects of news and events on stock market and share prices. This game will act as a tool for you to gain knowledge and learn real time trading over an exchange. Compete against other people, buying and selling virtual stocks, invest wisely to get the maximum value of your portfolio in a classic trading pit style.</string>
+    <string name="awaaz">Advitiya\'18 gives you a chance to pitch your start-up idea to potential investers. Grab this opportunity with both hands.</string>
+
+    <string name="poker">"Life is not always a matter of holding good cards, but sometimes, playing a poor hand well."\n
+"Poker Night" offers a host of tournaments for enthusiasts to play poker. Come, show your poker strategy and embark on your journey to becoming a poker pro. Don't forget to register yor name and win a chance to grab exciting prizes.
+</string>
+    <string name="brain_vista">Every puzzle has a trick and if you get the trick right you are done and for getting the trick right you should think a lot and sometimes even out of box. Brain vista is a puzzling competition which include lot of mathematical, lateral thinking and cryptic puzzles and in this competition puzzles are one of a kind and which forces you to think a lot and sometimes even out of the box.This competition is for all thinkers and puzzle lovers to showcase your problem solving skills,lateral thinking and code breaking skills.</string>
+    <string name="qfiesta">Knowledge is Power Indeed.Q-fiesta is a quizzing competition which covers questions from diverse array of topics like Sports, Science and Technology, Art and Literature, Movies, Tv series, Anime, Mythology, Politics, History. </string>
+    <string name="battle_ground">Battleground-X returns with its Competitive gaming in : CS:GO , FIFA</string>
+    <string name="ockam_razor">When you solve a puzzle usually no more assumptions should be made than necessary and for deciphering ciphers and cryptic puzzles, the possible assumptions you can assume is countless and the assumptions you should make for solving correctly are very less in number which are difficult to get at first go and needs some intuition, ingenuity and creativity.This competition is one of a kind which tests your ingenuity, the way you approach and respond to something very new, how simple assumptions you make, how efficiently you use your resources at disposal and your creativity with every question.</string>
+
+
+    <string name="drone">Grab the chance to test your quad-copter and escalate your skills and knowledge to new heights in the sky in the Quadcopter competition at ADVITIYA 2018.</string>
+    <string name="ml">With the power of machine learning many human life problems that seemed to be impossible have became possible. So here we are with a machine learning workshop using python, the coolest programming language.</string>
+    <string name="robot">We are fascinated with robots because they are reflection of ourselves. Advitiya 18 provides you the opportunity to reflect your thoughts via robots. grab this opportunity to learn how to control the bots with your brain.</string>
+
+    <string name="register_drone">http://advitiya.in/workshops.php?num=2</string>
+    <string name="register_ml">http://advitiya.in/workshops.php?num=0</string>
+    <string name="register_robot">http://advitiya.in/workshops.php?num=1</string>
+
+
+</resources>

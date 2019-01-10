@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ <?xml version="1.0" encoding="utf-8"?> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_contact_us"
+    tools:context="iitropar.advitiya.ContactUS">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="10dp" >
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1"
+        android:id="@+id/contact_tv"
+        tools:context="iitropar.aarohan.Developers">
+
+        <TextView android:textColor="@color/white"
+            android:layout_marginTop="100px"
+            android:textSize="72px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sponsorship"
+            android:textAlignment="center" />
+        <TableRow
+            android:layout_marginTop="50px"
+            >
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mayank Agrawal"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sarthak Gupta"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015meb1096@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015csb1029@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+        <TableRow>
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/phone1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="+91-7307330540"
+            android:layout_gravity="center"
+            android:clickable="true"
+            />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91-8899999007"
+            android:layout_gravity="center"
+            android:clickable="true"
+            />
+        </TableRow>
+        <TextView android:textColor="@color/white"
+            android:id="@+id/name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="Nittin Singh"
+            android:textAlignment="center"
+            />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/email3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2015csb1067@iitrpr.ac.in"
+            android:textAlignment="center"
+            android:clickable="true" />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/phone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="+91-7307381372"
+            android:clickable="true" />
+
+        <TextView android:textColor="@color/white"
+            android:layout_marginTop="100px"
+            android:textSize="72px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Publicity"
+            android:textAlignment="center" />
+        <TextView android:textColor="@color/white"
+            android:id="@+id/name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="Sachan Tiwari"
+            android:textAlignment="center"
+            />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/email4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2015meb1112@iitrpr.ac.in"
+            android:textAlignment="center"
+            android:clickable="true" />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/phone4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="+91-9915369636"
+            android:clickable="true" />
+
+        <TextView android:textColor="@color/white"
+            android:layout_marginTop="100px"
+            android:textSize="72px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Event Management"
+            android:textAlignment="center" />
+        <TableRow
+            android:layout_marginTop="50px" >
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pratyush Singh"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kinshuk Verma"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015eeb1070@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015eeb1059@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/phone5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+91-8726306822"
+                android:layout_gravity="center"
+                android:clickable="true"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/phone6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91-9779711988"
+                android:layout_gravity="center"
+                android:clickable="true"
+                />
+        </TableRow>
+        <TextView android:textColor="@color/white"
+            android:id="@+id/name7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="Nikhil Gupta(Talks)"
+            android:textAlignment="center"
+            />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/email7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2015eeb1066@iitrpr.ac.in"
+            android:textAlignment="center"
+            android:clickable="true" />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/phone7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="+91-8742023392"
+            android:clickable="true" />
+
+        <TextView android:textColor="@color/white"
+            android:layout_marginTop="100px"
+            android:textSize="72px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hospitality"
+            android:textAlignment="center" />
+        <TextView android:textColor="@color/white"
+            android:id="@+id/name8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="Naman Gola"
+            android:textAlignment="center"
+            />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/email8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2015eeb1064@iitrpr.ac.in"
+            android:textAlignment="center"
+            android:clickable="true" />
+        <TextView android:textColor="@color/gray"
+            android:id="@+id/phone8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="+91-9717308031"
+            android:clickable="true" />
+
+        <TextView android:textColor="@color/white"
+            android:layout_marginTop="100px"
+            android:textSize="72px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Creativity"
+            android:textAlignment="center" />
+        <TableRow
+            android:layout_marginTop="50px" >
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Eshan Indoliya"
+                />
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Kumar Ayush"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015eeb1051@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015eeb1060@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/phone9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+91-8769638468"
+                android:layout_gravity="center"
+                android:clickable="true"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/phone10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91-8002023049"
+                android:layout_gravity="center"
+                android:clickable="true"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="50px" >
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lakshay Narang"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/white"
+                android:id="@+id/name12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Anirudh Sharma"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016meb1125@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/email12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2015csb1007@iitrpr.ac.in"
+                android:clickable="true"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/phone11"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+91-8950809292"
+                android:layout_gravity="center"
+                android:clickable="true"
+                />
+            <TextView android:textColor="@color/gray"
+                android:id="@+id/phone12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91-7597522496"
+                android:layout_gravity="center"
+                android:clickable="true"
+                />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+</RelativeLayout>

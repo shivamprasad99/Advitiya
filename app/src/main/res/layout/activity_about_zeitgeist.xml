@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="iitropar.advitiya.AboutAdivitya">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@color/transparent">
+
+        <com.bluejamesbond.text.DocumentView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:documentView_textAlignment="justified"
+            app:documentView_text="@string/about_text"
+            app:documentView_textSize="16dp"
+            app:documentView_textColor="@color/white"
+            android:paddingBottom="10dp"
+            app:documentView_insetPaddingBottom="15dp"/>
+
+    </RelativeLayout>
+
+
+    <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/about_text"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_text"
+            android:textSize="16sp"/>
+    -->
+</RelativeLayout>

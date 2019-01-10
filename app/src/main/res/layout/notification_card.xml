@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/notificationDp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/notificationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#444444"
+        android:text="Desi Beats Finals (Choreonite)"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/notificationDp"
+        android:layout_toEndOf="@+id/notificationDp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        />
+    <TextView
+        android:id="@+id/notificationCurrentTime"
+        android:layout_width="wrap_content"
+        android:text="22:00"
+        android:textSize="12sp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignRight="@id/notificationText"
+        android:layout_alignEnd="@+id/notificationText"
+        android:layout_alignParentRight="true"/>
+
+    <RelativeLayout android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationText"
+        android:textColor="#888888"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/notificationText"
+        android:layout_alignEnd="@+id/notificationText"
+        android:layout_alignLeft="@+id/notificationText"
+        android:layout_alignStart="@+id/notificationText">
+
+        <TextView
+            android:id="@+id/notification_venue"
+            android:text="Convocation Hall"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"
+            />
+        <TextView
+            android:id="@+id/slash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/notification_venue"
+            android:layout_toEndOf="@+id/notification_venue"
+            android:text="|"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/notification_eventTime"
+            android:layout_width="wrap_content"
+            android:text="22:00 - 23:00 hrs"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/slash"
+            android:layout_toEndOf="@+id/slash"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="2dp"/>
+    </RelativeLayout>
+
+    <!--TextView android:id="@+id/notificationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:00 AM"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/-->
+
+
+
+
+</RelativeLayout>
